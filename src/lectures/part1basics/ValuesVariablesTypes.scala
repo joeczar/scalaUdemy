@@ -7,7 +7,7 @@ object ValuesVariablesTypes extends App {
   println(x)
   //x = 2  doesn't work! Val's are immutable!
 
-  val aString: string = "hello"; // Semicolons are ok but unnecessary unless combining expressions, which is bad style
+  val aString: String = "hello"; // Semicolons are ok but unnecessary unless combining expressions, which is bad style
   val anotherString = "goodbye"
 
   val aBoolean: Boolean = true
@@ -20,5 +20,5 @@ object ValuesVariablesTypes extends App {
 
   // Variables
   var aVariable = 5 // side effects
-
+// prefer vals over vars
 }
