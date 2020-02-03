@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b548e8d7-80bc-4a61-9256-4c8917d72921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/Expressions$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/Expressions$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/Expressions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/Functions$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/Functions$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/ValuesVariablesTypes$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/ValuesVariablesTypes$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/ValuesVariablesTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/lectures/part1basics/ValuesVariablesTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +44,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Functions">
+  <component name="RunManager" selected="Application.Recursion">
     <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
       <module name="scala" />
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.JavaPlayground" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Recursion" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="lectures.part1basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Expressions" />
         <item itemvalue="Application.ValuesVariablesTypes" />
         <item itemvalue="Application.ScalaPlayground" />
-        <item itemvalue="Application.JavaPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1580294849260</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added 3. Expressions &amp; 4. Functions">
+      <created>1580581178872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580581178872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added 3. Expressions &amp; 4. Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 3. Expressions &amp; 4. Functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="81" key="#Intentions" timestamp="1580576095061">
@@ -141,30 +156,38 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="57" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580566596695" />
-    <state x="257" y="40" key="CommitChangelistDialog2" timestamp="1580581131990">
+    <state x="257" y="40" key="CommitChangelistDialog2" timestamp="1580581177572">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state x="257" y="40" key="CommitChangelistDialog2/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581131990" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1580581132399">
+    <state x="257" y="40" key="CommitChangelistDialog2/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581177572" />
+    <state x="382" y="177" key="FileChooserDialogImpl" timestamp="1580719612049">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581132399" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1580581132399">
+    <state x="382" y="177" key="FileChooserDialogImpl/0.40.1200.760@0.40.1200.760" timestamp="1580719612049" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1580762331030">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581132399" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1580581132399">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1580762331030" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1580762331029">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581132399" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1580581132399">
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1580762331029" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1580762331029">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581132399" />
-    <state x="299" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1580565592499">
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1580762331029" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1580762331029">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state x="299" y="247" key="com.intellij.ide.util.TipDialog/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580565592499" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1580762331029" />
+    <state x="299" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1580679784780">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="299" y="247" key="com.intellij.ide.util.TipDialog/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580679784780" />
     <state x="299" y="247" key="com.intellij.ide.util.TipDialog/0.40.1200.760@0.40.1200.760" timestamp="1580332816533" />
     <state x="411" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580581062271">
       <screen x="0" y="40" width="1200" height="760" />
