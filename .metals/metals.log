@@ -1,0 +1,91 @@
+INFO  started: Metals version 0.8.0 in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'
+INFO  time: initialize in 0.61s
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\DefaultArgs.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\DefaultArgs.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\Expressions.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\smaroOpsOnStrings.scala
+Feb 05, 2020 4:50:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IndexOutOfBoundsException: 1
+java.util.concurrent.CompletionException: java.lang.IndexOutOfBoundsException: 1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:673)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IndexOutOfBoundsException: 1
+	at scala.reflect.internal.util.BatchSourceFile.lineToOffset(SourceFile.scala:186)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition(AutoImports.scala:66)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition$(AutoImports.scala:40)
+	at scala.meta.internal.pc.MetalsGlobal.autoImportPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$lzycompute$1(CompletionProvider.scala:62)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$1(CompletionProvider.scala:62)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:134)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:459)
+	at scala.collection.Iterator.toStream(Iterator.scala:1415)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1414)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1429)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1415)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1171)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1161)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	... 9 more
+
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\Expressions.scala
+  C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\DefaultArgs.scala
+  C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\Expressions.scala
+  C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\DefaultArgs.scala
+  C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\Expressions.scala
+  C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\DefaultArgs.scala
+  C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+INFO  compilation cancelled
+Feb 05, 2020 4:53:49 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+Feb 05, 2020 5:06:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'C:\Users\joecz\OneDrive\Code\scala\scalaUdemy'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: C:\Users\joecz\OneDrive\Code\scala\scalaUdemy\src\lectures\part1basics\StringOps.scala
+INFO  shutting down Metals
