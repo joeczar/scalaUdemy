@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b548e8d7-80bc-4a61-9256-4c8917d72921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2op/AbstractDataTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excercises/MyList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="4" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.AbstractDataTypes">
+  <component name="RunManager" selected="Application.ListTest">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2op.AbstractDataTypes" />
       <module name="scala" />
@@ -63,6 +63,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lectures.part2op.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Excercises.ListTest" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Excercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.stringOps" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.InheritanceAndTraits" />
         <item itemvalue="Application.MethodNotations" />
         <item itemvalue="Application.ooBasics" />
-        <item itemvalue="Application.stringOps" />
       </list>
     </recent_temporary>
   </component>
@@ -174,26 +174,26 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="382" y="177" key="FileChooserDialogImpl/0.40.1200.760@0.40.1200.760" timestamp="1580922867380" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1581083074886">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1581086967090">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1581083074886" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1581083074885">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1581086967090" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1581086967090">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1581083074885" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1581083074885">
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1581086967090" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1581086967090">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1581083074885" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1581083074885">
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1581086967090" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1581086967090">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1581083074885" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1581086967090" />
     <state x="111" y="65" width="928" height="706" key="SettingsEditor" timestamp="1581067282414">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
