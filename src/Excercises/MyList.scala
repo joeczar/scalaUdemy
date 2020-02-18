@@ -21,6 +21,12 @@ abstract class MyList[+A] {
   def filter(predicate: A => Boolean): MyList[A]
   // Concatenation
   def ++[B >: A](list: MyList[B]): MyList[B]
+  def fold[B](start: B)(operator: (B, A) => B): B
+
+  // HOFs
+  def forEach(f: A => Unit): Unit
+  def sort(compare: (A, A) => Int): MyList[A]
+  def zipWith[B, C](list: MyList[B], zip:(A,B) => C): MyList[C]
 }
 
 case object Empty extends MyList[Nothing] {
@@ -34,6 +40,14 @@ case object Empty extends MyList[Nothing] {
   def flatMap[B](transformer: Nothing =>MyList[B]): MyList[B] = Empty
   def filter(predicate: Nothing => Boolean): MyList[Nothing] = Empty
   def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
+
+  // HOFs
+  def forEach(f: Nothing => Unit): Unit = ()
+  def sort(compare: (Nothing, Nothing) => Int) = Empty
+  def zipWith[B, C](list: MyList[B], zip:(Nothing,B) => C): MyList[C] =
+    if(!list.isEmpty) throw new RuntimeException("Lists do not have the same length")
+    else Empty
+  def fold[B](start: B)(operator: (B, Nothing) => B): B = start
 }
 
 case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
@@ -83,6 +97,31 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
     = [1,2] ** [2,3] ++ Empty
     = [1,2,2,3]
    */
+// HOFs
+  def forEach(f: A => Unit): Unit = {
+    f(h)
+    t.forEach(f)
+  }
+  def sort(compare: (A, A) => Int): MyList[A] = {
+    def insert(x: A, sortedList: MyList[A]): MyList[A] =
+      if (sortedList.isEmpty) new Cons(x, Empty)
+      else if (compare(x, sortedList.head) <= 0) new Cons(x, sortedList)
+      else new Cons(sortedList.head, insert(x, sortedList.tail))
+    val sortedTail = t.sort(compare)
+    insert(h, sortedTail)
+  }
+  def zipWith[B, C](list: MyList[B], zip:(A,B) => C): MyList[C] =
+    if (list.isEmpty) throw new RuntimeException("Lists do not have the same length")
+    else new Cons(zip(h, list.head), t.zipWith(list.tail, zip))
+  /*
+    [1,2,3].fold(0)(+) =
+    = [2,3].fold(0+1)(+)
+    = [3].fold(1+2)(+)
+    = [].fold(3+3)(+)
+    = 6
+   */
+  def fold[B](start: B)(operator: (B, A) => B): B =
+    t.fold(operator(start, h))(operator)
 
 }
 /*
@@ -120,9 +159,9 @@ object ListTest extends App {
     override def apply(element: Int): MyList[Int] = new Cons(element, new Cons(element +1, Empty))
   }).toString)
    */
-  println(intList.map((element: Int) => element * 2).toString)
+  println(intList.map(_ * 2).toString)
 
-  println(intList.filter((element: Int) => element % 2 == 0).toString)
+  println(intList.filter(_ % 2 == 0).toString)
 
   println(intList ++ anothaIntList)
 
@@ -130,4 +169,12 @@ object ListTest extends App {
 
   // Because of case classes & Objects
   println(intList == clonedIntList)
+  intList.forEach(print)
+  // Sort
+  println(intList.sort((x,y)=> y-x))
+  // zipWith
+  val zipped = anothaIntList.zipWith[String, String](stringList, _ + "|" + _)
+  println(zipped)
+  // fold
+  println(stringList.fold("")(_+_))
 }

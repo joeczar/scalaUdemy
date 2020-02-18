@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b548e8d7-80bc-4a61-9256-4c8917d72921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2op/PackagingAndImports.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2op/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/Cinderella.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/PrinceCharming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/AnonymousFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/HOFsCurries.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/lectures/part2op/Exceptions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/lectures/part2op/Exceptions$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/Cons$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/Cons$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/Cons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/Empty$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/Empty$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/Empty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/MyList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Excercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/whatsAFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/whatsAFunction.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +52,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="scala_project_settings_configurable.last_selected_tab_index" value="4" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
-  <component name="RunManager" selected="Application.whatsAFunction">
-    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2op.CaseClasses" />
+  <component name="RunManager" selected="Application.HOFsCurries">
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2op.Exceptions" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -64,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2op.Exceptions" />
+    <configuration name="HOFsCurries" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3functionalProgramming.HOFsCurries" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2op.*" />
+          <option name="PATTERN" value="lectures.part3functionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.whatsAFunction" />
+        <item itemvalue="Application.HOFsCurries" />
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.whatsAFunction" />
         <item itemvalue="Application.PackagingAndImports" />
         <item itemvalue="Application.Exceptions" />
-        <item itemvalue="Application.CaseClasses" />
       </list>
     </recent_temporary>
   </component>
@@ -177,59 +182,63 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="57" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580566596695" />
-    <state x="407" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1581328847693">
+    <state x="407" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1581425589229">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state x="407" y="120" key="#com.intellij.ide.util.MemberChooser/0.40.1200.760@0.40.1200.760" timestamp="1581328847693" />
+    <state x="407" y="120" key="#com.intellij.ide.util.MemberChooser/0.40.1200.760@0.40.1200.760" timestamp="1581425589229" />
     <state x="257" y="40" key="CommitChangelistDialog2" timestamp="1580581177572">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="257" y="40" key="CommitChangelistDialog2/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581177572" />
-    <state x="382" y="177" key="FileChooserDialogImpl" timestamp="1581108435519">
+    <state x="382" y="177" key="FileChooserDialogImpl" timestamp="1581439236060">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state x="382" y="177" key="FileChooserDialogImpl/0.40.1200.760@0.40.1200.760" timestamp="1581108435519" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1581330327446">
+    <state x="382" y="177" key="FileChooserDialogImpl/0.40.1200.760@0.40.1200.760" timestamp="1581439236060" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582060258958">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1581330327446" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582060258958" />
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1581330327446">
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582060258958">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1581330327446" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582060258958" />
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1581330327446">
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582060258957">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1581330327446" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582060258957" />
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.800.1160@0.40.800.1160" timestamp="1581284487894" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1581330327446">
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582060258958">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1581330327446" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582060258958" />
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
     <state x="377" y="133" key="RollbackChangesDialog" timestamp="1581328161966">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="377" y="133" key="RollbackChangesDialog/0.40.1200.760@0.40.1200.760" timestamp="1581328161966" />
-    <state x="111" y="65" width="928" height="706" key="SettingsEditor" timestamp="1581067282414">
+    <state x="111" y="65" width="928" height="706" key="SettingsEditor" timestamp="1581701964302">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state x="111" y="65" width="928" height="706" key="SettingsEditor/0.40.1200.760@0.40.1200.760" timestamp="1581067282414" />
-    <state x="299" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1581325771238">
+    <state x="111" y="65" width="928" height="706" key="SettingsEditor/0.40.1200.760@0.40.1200.760" timestamp="1581701964302" />
+    <state x="299" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1581343932098">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="299" y="247" key="com.intellij.ide.util.TipDialog/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580679784780" />
-    <state x="299" y="247" key="com.intellij.ide.util.TipDialog/0.40.1200.760@0.40.1200.760" timestamp="1581325771238" />
+    <state x="299" y="247" key="com.intellij.ide.util.TipDialog/0.40.1200.760@0.40.1200.760" timestamp="1581343932098" />
     <state x="411" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580581062271">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="411" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580581062271" />
+    <state x="35" y="147" key="new project wizard" timestamp="1581701718882">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="35" y="147" key="new project wizard/0.40.1200.760@0.40.1200.760" timestamp="1581701718882" />
     <state x="0" y="37" key="refactoring.ChangeSignatureDialog" timestamp="1580821572588">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
@@ -238,9 +247,9 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="258" y="192" key="run.anything.popup/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580295169846" />
-    <state x="263" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1581327941727">
+    <state x="263" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1582059248086">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state x="263" y="121" width="672" height="678" key="search.everywhere.popup/0.40.1200.760@0.40.1200.760" timestamp="1581327941727" />
+    <state x="263" y="121" width="672" height="678" key="search.everywhere.popup/0.40.1200.760@0.40.1200.760" timestamp="1582059248086" />
   </component>
 </project>
