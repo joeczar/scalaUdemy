@@ -177,4 +177,11 @@ object ListTest extends App {
   println(zipped)
   // fold
   println(stringList.fold("")(_+_))
+
+  // for comprehension
+  val forComprehension = for {
+    n <- intList
+    s <- stringList
+  } yield s"$n-$s"
+  println(forComprehension)
 }
