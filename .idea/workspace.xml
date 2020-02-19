@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b548e8d7-80bc-4a61-9256-4c8917d72921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Excercises/Maybe.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/MapFlatMapFilterFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/Sequences.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/Excercises/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excercises/MyList.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
     <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
-  <component name="RunManager" selected="Application.MaybeTest">
+  <component name="RunManager" selected="Application.Sequences">
     <configuration name="HOFsCurries" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part3functionalProgramming.HOFsCurries" />
       <module name="scala" />
@@ -101,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whatsAFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3functionalProgramming.whatsAFunction" />
+    <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3functionalProgramming.Sequences" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.MaybeTest" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.MapFlatMapFilterFor" />
         <item itemvalue="Application.HOFsCurries" />
-        <item itemvalue="Application.whatsAFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -187,29 +183,29 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="382" y="177" key="FileChooserDialogImpl/0.40.1200.760@0.40.1200.760" timestamp="1581439236060" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582118926389">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582135228521">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582118926389" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582135228521" />
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582118926389">
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582135228521">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582118926389" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582135228521" />
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582118926381">
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582135228521">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582118926381" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582135228521" />
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.800.1160@0.40.800.1160" timestamp="1581284487894" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582118926389">
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582135228521">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582118926389" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582135228521" />
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
     <state x="377" y="133" key="RollbackChangesDialog" timestamp="1581328161966">
       <screen x="0" y="40" width="1200" height="760" />
