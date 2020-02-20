@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b548e8d7-80bc-4a61-9256-4c8917d72921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/TuplesAndMaps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3functionalProgramming/Options.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
     <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
-  <component name="RunManager" selected="Application.TuplesAndMaps">
+  <component name="RunManager" selected="Application.Options">
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Excercises.ListTest" />
       <module name="scala" />
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapFlatMapFilterFor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3functionalProgramming.MapFlatMapFilterFor" />
+    <configuration name="MaybeTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Excercises.MaybeTest" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part3functionalProgramming.*" />
+          <option name="PATTERN" value="Excercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaybeTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Excercises.MaybeTest" />
+    <configuration name="Options" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3functionalProgramming.Options" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Excercises.*" />
+          <option name="PATTERN" value="lectures.part3functionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Options" />
         <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.MaybeTest" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.MapFlatMapFilterFor" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +167,10 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="194" y="81" key="#Intentions/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580576095061" />
+    <state x="194" y="80" key="#Notifications" timestamp="1582197101820">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="194" y="80" key="#Notifications/0.40.1200.760@0.40.1200.760" timestamp="1582197101820" />
     <state x="57" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580566596695">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
@@ -175,6 +179,10 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="407" y="120" key="#com.intellij.ide.util.MemberChooser/0.40.1200.760@0.40.1200.760" timestamp="1581425589229" />
+    <state x="282" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582197138158">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="282" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.40.1200.760@0.40.1200.760" timestamp="1582197138158" />
     <state x="257" y="40" key="CommitChangelistDialog2" timestamp="1580581177572">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
@@ -183,29 +191,29 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="382" y="177" key="FileChooserDialogImpl/0.40.1200.760@0.40.1200.760" timestamp="1581439236060" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582195622176">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582204959655">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582195622176" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582204959655" />
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582195622176">
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582204959654">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582195622176" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582204959654" />
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582195622175">
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582204959653">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372637" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582195622175" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582204959653" />
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.800.1160@0.40.800.1160" timestamp="1581284487894" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582195622176">
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582204959655">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/404.-1040.1097.577@0.40.1200.760" timestamp="1580681372638" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582195622176" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582204959655" />
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.800.1160@0.40.800.1160" timestamp="1581284487896" />
     <state x="377" y="133" key="RollbackChangesDialog" timestamp="1581328161966">
       <screen x="0" y="40" width="1200" height="760" />
