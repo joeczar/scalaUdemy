@@ -1,4 +1,4 @@
-package playground
+package lectures.part4pm
 
 import scala.util.Random
 
